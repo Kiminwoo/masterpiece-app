@@ -81,7 +81,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.c1{
                     width: 100%;
                 }
             }
@@ -93,7 +93,7 @@ main{
             
             .RomanticismContent-text{
                 width: 48%;
-                height: 613px;
+                height: 618px;
                 background-color: #B5C7D3;
                 color: #ffffff;
                 padding: 80px 200px 80px 202px;
@@ -115,7 +115,7 @@ main{
             figure{
                 width: 52%;
 
-                img{
+                img.c2{
                     width: 100%;
                 }
             }
@@ -149,7 +149,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.c3{
                     width: 100%;
                 }
             }
@@ -161,7 +161,7 @@ main{
             
             .ImpressionismContent-text{
                 width: 48%;
-                height: 613px;
+                height: 619px;
                 background-color: #579BB1;
                 color: #ffffff;
                 padding: 80px 200px 80px 202px;
@@ -178,17 +178,15 @@ main{
                     font-size: 24px;
                     font-weight: lighter;
                 }
-
-                figure{
-                    width: 52%;
-
-                    img{
-                        width: 100%;
-                    }
-                }
             }
 
-            
+            figure{
+                width: 52%;
+
+                img.c4{
+                    width: 100%;
+                }
+            }  
         }
 
         .NeoimpressionismContent{
@@ -218,7 +216,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.c5{
                     width: 100%;
                 }
             }

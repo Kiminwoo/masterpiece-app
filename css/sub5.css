@@ -45,6 +45,12 @@ main .ContemporaryContent01 .ContemporaryTittle h3::after {
 main .ContemporaryContent01 .ContemporaryTittle h3 p {
   font-size: 16px;
 }
+main .ContemporaryContent01 .f1 {
+  width: 48%;
+}
+main .ContemporaryContent01 .f1 img {
+  width: 100%;
+}
 main .ContemporaryContent02 {
   width: 100%;
 }
@@ -72,7 +78,7 @@ main .ContemporaryContent02 .fauvismContent .fauvismContent-text h4 {
 main .ContemporaryContent02 .fauvismContent figure {
   width: 48%;
 }
-main .ContemporaryContent02 .fauvismContent figure img {
+main .ContemporaryContent02 .fauvismContent figure img.f1 {
   width: 100%;
 }
 main .ContemporaryContent02 .CubismContent {
@@ -81,7 +87,7 @@ main .ContemporaryContent02 .CubismContent {
 }
 main .ContemporaryContent02 .CubismContent .CubismContent-text {
   width: 48%;
-  height: 678px;
+  height: 684px;
   background-color: #E14D2A;
   color: #ffffff;
   padding: 80px 200px 80px 202px;
@@ -97,10 +103,10 @@ main .ContemporaryContent02 .CubismContent .CubismContent-text h4 {
   font-size: 24px;
   font-weight: lighter;
 }
-main .ContemporaryContent02 .CubismContent .CubismContent-text figure {
+main .ContemporaryContent02 .CubismContent figure {
   width: 52%;
 }
-main .ContemporaryContent02 .CubismContent .CubismContent-text figure img {
+main .ContemporaryContent02 .CubismContent figure img.f2 {
   width: 100%;
 }
 main .ContemporaryContent02 .AbstractContent {
@@ -127,7 +133,7 @@ main .ContemporaryContent02 .AbstractContent .AbstractContent-text h4 {
 main .ContemporaryContent02 .AbstractContent figure {
   width: 48%;
 }
-main .ContemporaryContent02 .AbstractContent figure img {
+main .ContemporaryContent02 .AbstractContent figure img.f3 {
   width: 100%;
 }
 main .ContemporaryContent02 .NeoPlasticismtent {
@@ -152,10 +158,10 @@ main .ContemporaryContent02 .NeoPlasticismtent .NeoPlasticismtent-text h4 {
   font-size: 24px;
   font-weight: lighter;
 }
-main .ContemporaryContent02 .NeoPlasticismtent .NeoPlasticismtent-text figure {
+main .ContemporaryContent02 .NeoPlasticismtent figure {
   width: 52%;
 }
-main .ContemporaryContent02 .NeoPlasticismtent .NeoPlasticismtent-text figure img {
+main .ContemporaryContent02 .NeoPlasticismtent figure img.f4 {
   width: 100%;
 }
 main .ContemporaryContent02 .expressionismContent {
@@ -182,7 +188,7 @@ main .ContemporaryContent02 .expressionismContent .expressionismContent-text h4 
 main .ContemporaryContent02 .expressionismContent figure {
   width: 48%;
 }
-main .ContemporaryContent02 .expressionismContent figure img {
+main .ContemporaryContent02 .expressionismContent figure img.f5 {
   width: 100%;
 }
 main .ContemporaryContent02 .FuturismContent {
@@ -192,7 +198,7 @@ main .ContemporaryContent02 .FuturismContent {
 }
 main .ContemporaryContent02 .FuturismContent .FuturismContent-text {
   width: 48%;
-  height: 678px;
+  height: 615px;
   background-color: #FEC868;
   color: #ffffff;
   padding: 80px 200px 80px 202px;
@@ -208,10 +214,10 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text h4 {
   font-size: 24px;
   font-weight: lighter;
 }
-main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure {
+main .ContemporaryContent02 .FuturismContent figure {
   width: 52%;
 }
-main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
+main .ContemporaryContent02 .FuturismContent figure img.f6 {
   width: 100%;
 }
 
@@ -292,6 +298,7 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ContemporaryContent02 .fauvismContent .fauvismContent-text h4 {
     font-size: 18px;
@@ -305,9 +312,9 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
   main .ContemporaryContent02 .fauvismContent figure {
     width: 100%;
   }
-  main .ContemporaryContent02 .fauvismContent figure img {
+  main .ContemporaryContent02 .fauvismContent figure img.f1 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ContemporaryContent02 .CubismContent {
     width: 100%;
@@ -334,6 +341,7 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ContemporaryContent02 .CubismContent .CubismContent-text h4 {
     font-size: 18px;
@@ -346,9 +354,9 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
   main .ContemporaryContent02 .CubismContent figure {
     width: 100%;
   }
-  main .ContemporaryContent02 .CubismContent figure img {
+  main .ContemporaryContent02 .CubismContent figure img.f2 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ContemporaryContent02 .AbstractContent {
     width: 100%;
@@ -373,6 +381,7 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ContemporaryContent02 .AbstractContent .AbstractContent-text h4 {
     font-size: 18px;
@@ -385,49 +394,9 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
   main .ContemporaryContent02 .AbstractContent figure {
     width: 100%;
   }
-  main .ContemporaryContent02 .AbstractContent figure img {
+  main .ContemporaryContent02 .AbstractContent figure img.f3 {
     width: 100%;
-    height: 240px;
-  }
-  main .ContemporaryContent02 .ImpressionismContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  main .ContemporaryContent02 .ImpressionismContent .ImpressionismContent-text {
-    width: 100%;
-    background-color: #579BB1;
-    color: #ffffff;
-    padding: 50px 30px 50px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  main .ContemporaryContent02 .ImpressionismContent .ImpressionismContent-text h3 {
-    font-size: 24px;
-    font-weight: lighter;
-    margin-bottom: 30px;
-    line-height: 33px;
-  }
-  main .ContemporaryContent02 .ImpressionismContent .ImpressionismContent-text p {
-    font-size: 12px;
-    margin-bottom: 30px;
-    text-align: justify;
-  }
-  main .ContemporaryContent02 .ImpressionismContent .ImpressionismContent-text h4 {
-    font-size: 18px;
-    font-weight: lighter;
-    margin-bottom: 30px;
-  }
-  main .ContemporaryContent02 .ImpressionismContent .ImpressionismContent-text span {
-    font-size: 12px;
-  }
-  main .ContemporaryContent02 .ImpressionismContent figure {
-    width: 100%;
-  }
-  main .ContemporaryContent02 .ImpressionismContent figure img {
-    width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ContemporaryContent02 .NeoPlasticismtent {
     width: 100%;
@@ -453,6 +422,7 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ContemporaryContent02 .NeoPlasticismtent .NeoPlasticismtent-text h4 {
     font-size: 18px;
@@ -465,9 +435,9 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
   main .ContemporaryContent02 .NeoPlasticismtent figure {
     width: 100%;
   }
-  main .ContemporaryContent02 .NeoPlasticismtent figure img {
+  main .ContemporaryContent02 .NeoPlasticismtent figure img.f4 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ContemporaryContent02 .expressionismContent {
     width: 100%;
@@ -504,9 +474,9 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
   main .ContemporaryContent02 .expressionismContent figure {
     width: 100%;
   }
-  main .ContemporaryContent02 .expressionismContent figure img {
+  main .ContemporaryContent02 .expressionismContent figure img.f5 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ContemporaryContent02 .FuturismContent {
     width: 100%;
@@ -545,8 +515,8 @@ main .ContemporaryContent02 .FuturismContent .FuturismContent-text figure img {
   main .ContemporaryContent02 .FuturismContent figure {
     width: 100%;
   }
-  main .ContemporaryContent02 .FuturismContent figure img {
+  main .ContemporaryContent02 .FuturismContent figure img.f6 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
 }/*# sourceMappingURL=sub5.css.map */

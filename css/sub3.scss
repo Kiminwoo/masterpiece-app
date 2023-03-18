@@ -55,7 +55,7 @@ main{
     .EarlyModernContent02{
         width: 100%;
 
-        .RenaissanceContent{
+        .RenaissanceContent{    
             width: 100%;
             display: flex;
             
@@ -81,7 +81,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.b1{
                     width: 100%;
                 }
             }
@@ -109,13 +109,13 @@ main{
                     font-size: 24px;
                     font-weight: lighter;
                 }
+            }
 
-                figure{
-                    width: 52%;
+            figure{
+                width: 52%;
 
-                    img{
-                        width: 100%;
-                    }
+                img.b2{
+                    width: 100%;
                 }
             }
 
@@ -149,7 +149,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.b3{
                     width: 100%;
                 }
             }

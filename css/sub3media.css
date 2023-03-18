@@ -75,6 +75,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .EarlyModernContent02 .RenaissanceContent .RenaissanceContent-text h4 {
     font-size: 18px;
@@ -88,9 +89,9 @@
   main .EarlyModernContent02 .RenaissanceContent figure {
     width: 100%;
   }
-  main .EarlyModernContent02 .RenaissanceContent figure img {
+  main .EarlyModernContent02 .RenaissanceContent figure img.b1 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .EarlyModernContent02 .BaroqueContent {
     width: 100%;
@@ -115,6 +116,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .EarlyModernContent02 .BaroqueContent .BaroqueContent-text h4 {
     font-size: 18px;
@@ -124,9 +126,12 @@
   main .EarlyModernContent02 .BaroqueContent .BaroqueContent-text span {
     font-size: 12px;
   }
-  main .EarlyModernContent02 .BaroqueContent img {
+  main .EarlyModernContent02 .BaroqueContent figure {
     width: 100%;
-    height: 240px;
+  }
+  main .EarlyModernContent02 .BaroqueContent figure img.b2 {
+    width: 100%;
+    height: 230px;
   }
   main .EarlyModernContent02 .RococoContent {
     width: 100%;
@@ -153,6 +158,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .EarlyModernContent02 .RococoContent .RococoContent-text h4 {
     font-size: 18px;
@@ -165,8 +171,8 @@
   main .EarlyModernContent02 .RococoContent figure {
     width: 100%;
   }
-  main .EarlyModernContent02 .RococoContent figure img {
+  main .EarlyModernContent02 .RococoContent figure img.b3 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
 }/*# sourceMappingURL=sub3media.css.map */

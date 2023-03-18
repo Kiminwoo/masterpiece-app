@@ -47,7 +47,12 @@ main{
                 p{
                     font-size: 16px;              
                 }
-
+            }
+        }
+        .f1{
+            width: 48%;
+            img{
+                width: 100%;
             }
         }
     }
@@ -81,7 +86,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.f1{
                     width: 100%;
                 }
             }
@@ -93,7 +98,7 @@ main{
             
             .CubismContent-text{
                 width: 48%;
-                height: 678px;
+                height: 684px;
                 background-color: #E14D2A;
                 color: #ffffff;
                 padding: 80px 200px 80px 202px;
@@ -109,14 +114,14 @@ main{
                 h4{
                     font-size: 24px;
                     font-weight: lighter;
-                }
+                }   
+            }
 
-                figure{
-                    width: 52%;
+            figure{
+                width: 52%;
 
-                    img{
-                        width: 100%;
-                    }
+                img.f2{
+                    width: 100%;
                 }
             }
 
@@ -148,8 +153,7 @@ main{
             }
             figure{
                 width: 48%;
-
-                img{
+                img.f3{
                     width: 100%;
                 }
             }
@@ -178,13 +182,13 @@ main{
                     font-size: 24px;
                     font-weight: lighter;
                 }
+            }
+            
+            figure{
+                width: 52%;
 
-                figure{
-                    width: 52%;
-
-                    img{
-                        width: 100%;
-                    }
+                img.f4{
+                    width: 100%;
                 }
             }
 
@@ -217,7 +221,7 @@ main{
             figure{
                 width: 48%;
 
-                img{
+                img.f5{
                     width: 100%;
                 }
             }
@@ -230,7 +234,7 @@ main{
             
             .FuturismContent-text{
                 width: 48%;
-                height: 678px;
+                height: 615px;
                 background-color: #FEC868;
                 color: #ffffff;
                 padding: 80px 200px 80px 202px;
@@ -247,13 +251,13 @@ main{
                     font-size: 24px;
                     font-weight: lighter;
                 }
+            }
 
-                figure{
-                    width: 52%;
+            figure{
+                width: 52%;
 
-                    img{
-                        width: 100%;
-                    }
+                img.f6{
+                    width: 100%;
                 }
             }
 

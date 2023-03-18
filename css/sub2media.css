@@ -75,6 +75,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .MedievalContent02 .ByzantineContent .ByzantineContent-text h4 {
     font-size: 18px;
@@ -87,9 +88,9 @@
   main .MedievalContent02 .ByzantineContent figure {
     width: 100%;
   }
-  main .MedievalContent02 .ByzantineContent figure img {
+  main .MedievalContent02 .ByzantineContent figure img.r1 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .MedievalContent02 .RomanesqueContent {
     width: 100%;
@@ -115,6 +116,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .MedievalContent02 .RomanesqueContent .RomanesqueContent-text h4 {
     font-size: 18px;
@@ -127,9 +129,9 @@
   main .MedievalContent02 .RomanesqueContent figure {
     width: 100%;
   }
-  main .MedievalContent02 .RomanesqueContent figure img {
+  main .MedievalContent02 .RomanesqueContent figure img.r2 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .MedievalContent02 .GothicContent {
     width: 100%;
@@ -155,6 +157,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .MedievalContent02 .GothicContent .GothicContent-text h4 {
     font-size: 18px;
@@ -167,8 +170,8 @@
   main .MedievalContent02 .GothicContent figure {
     width: 100%;
   }
-  main .MedievalContent02 .GothicContent figure img {
+  main .MedievalContent02 .GothicContent figure img.r3 {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
 }/*# sourceMappingURL=sub2media.css.map */

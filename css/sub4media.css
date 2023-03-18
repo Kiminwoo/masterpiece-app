@@ -75,6 +75,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ModernContent02 .NeoclassicismContent .NeoclassicismContent-text h4 {
     font-size: 18px;
@@ -90,7 +91,7 @@
   }
   main .ModernContent02 .NeoclassicismContent figure img {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ModernContent02 .RomanticismContent {
     width: 100%;
@@ -117,6 +118,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ModernContent02 .RomanticismContent .RomanticismContent-text h4 {
     font-size: 18px;
@@ -131,7 +133,7 @@
   }
   main .ModernContent02 .RomanticismContent figure img {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ModernContent02 .RealisticContent {
     width: 100%;
@@ -156,6 +158,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ModernContent02 .RealisticContent .RealisticContent-text h4 {
     font-size: 18px;
@@ -170,7 +173,7 @@
   }
   main .ModernContent02 .RealisticContent figure img {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ModernContent02 .ImpressionismContent {
     width: 100%;
@@ -197,6 +200,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ModernContent02 .ImpressionismContent .ImpressionismContent-text h4 {
     font-size: 18px;
@@ -211,7 +215,7 @@
   }
   main .ModernContent02 .ImpressionismContent figure img {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
   main .ModernContent02 .NeoimpressionismContent {
     width: 100%;
@@ -238,6 +242,7 @@
     font-size: 12px;
     margin-bottom: 30px;
     text-align: justify;
+    letter-spacing: -0.3px;
   }
   main .ModernContent02 .NeoimpressionismContent .NeoimpressionismContent-text h4 {
     font-size: 18px;
@@ -252,6 +257,6 @@
   }
   main .ModernContent02 .NeoimpressionismContent figure img {
     width: 100%;
-    height: 240px;
+    height: 230px;
   }
 }/*# sourceMappingURL=sub4media.css.map */

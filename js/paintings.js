@@ -5,30 +5,30 @@ let $gPagingNum = 1;
 function getDataList() {
     // <!--  json 가져올때 fetch로 불러오기 -->
     fetch('./js/paintingsList.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error("HTTP error " + response.status);
-        }
-        // json type 으로 변환
-        return response.json();
-    })
-    .then(jsonDataList => {
-        $gItemList = jsonDataList.data;
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+            // json type 으로 변환
+            return response.json();
+        })
+        .then(jsonDataList => {
+            $gItemList = jsonDataList.data;
 
-        // 페이징 1 페이지 기본 default
-        paging(1);
+            // 페이징 1 페이지 기본 default
+            paging(1);
 
-        // 검색창 세팅
-        makeSearh();
+            // 검색창 세팅
+            makeSearh();
 
-        // 페이징 영역 동적 생성
-        makePagingHtml();
+            // 페이징 영역 동적 생성
+            makePagingHtml();
 
-    })
-    .catch(function () {
+        })
+        .catch(function () {
 
-        console.log("예외처리");
-    })
+            console.log("예외처리");
+        })
 }
 
 // 2번 방식 promise + fetch 를 이용한 json 임포트
@@ -49,7 +49,7 @@ function makePaintingList(objs) {
     console.log(objs)
     let $makePaintingHtml = "";
 
-    if(objs.length > 0) {
+    if (objs.length > 0) {
         objs.forEach((element, key) => {
 
             $makePaintingHtml += `<li data-value = "${element.id}" class="grid-item">
@@ -95,7 +95,7 @@ function paging(e) {
     }
 
     // 페이징 숫자가 0보다 작아진다면 1페이지 고정으로
-    if($gPagingNum <= 0){
+    if ($gPagingNum <= 0) {
         $gPagingNum = 1;
     }
 
@@ -107,7 +107,7 @@ function paging(e) {
     let elPagingDataList = [];
 
     $gItemList.map((element, index) => {
-        if (elStartPageNum - 1 <= index && elLimitPageNum > index) {
+        if (elStartPageNum - 1 < index && elLimitPageNum > index) {
             elPagingDataList.push(element)
         }
     })
@@ -121,28 +121,30 @@ function paging(e) {
 
         el.onclick = (elObj) => {
 
-            event.preventDefault();
-            elPopupBox.classList.add('active3');
+            // 결과 내역이 없을 경우 click 이벤트는 발생하면 안됨
+            if (elObj.currentTarget.innerHTML.replace(" ", "") != "결과 내역이 없습니다") {
+                event.preventDefault();
+                elPopupBox.classList.add('active3');
 
-            let $popHtml = "";
-            $gItemList.map((element, index) => {
+                let $popHtml = "";
+                $gItemList.map((element, index) => {
 
-                let objtureIndex = elObj.currentTarget.getAttribute(
-                    "data-value");
-                if (objtureIndex == element.id) {
+                    let objtureIndex = elObj.currentTarget.getAttribute(
+                        "data-value");
+                    if (objtureIndex == element.id) {
 
-                    $popHtml += makePopupHtml(element);
+                        $popHtml += makePopupHtml(element);
 
-                    elPopupBox.innerHTML = $popHtml;
+                        elPopupBox.innerHTML = $popHtml;
 
-                    const elPopupClose = document.querySelector(
-                        '.Popup-logo-close1');
-                    elPopupClose.onclick = function () {
-                        elPopupBox.classList.remove('active3')
+                        const elPopupClose = document.querySelector(
+                            '.Popup-logo-close1');
+                        elPopupClose.onclick = function () {
+                            elPopupBox.classList.remove('active3')
+                        }
                     }
-                }
-            })
-
+                })
+            }
         }
     })
 
@@ -159,7 +161,7 @@ function paging(e) {
 
     })
 
-    window.scrollTo(0,1000);
+    window.scrollTo(0, 1000);
 
 }
 
@@ -300,7 +302,7 @@ function makePopupHtml(element) {
 /**
  * 검색 기능 세팅
  */
-function makeSearh(){
+function makeSearh() {
 
     let $searchInputEl = document.getElementById("searchInput");
     let $makeHtmlSearchEls = "";

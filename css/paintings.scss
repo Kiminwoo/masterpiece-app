@@ -18,7 +18,6 @@ main{
         }
 
         .inputBox{
-            display: flex;
             margin-top: 80px;
             position: relative;
     
@@ -198,14 +197,14 @@ main{
             display: flex;
             justify-content: space-between;
           
-          figure{
-            width: 34%;
-            overflow: hidden;
-            img{
-                width: 100%;
-                
+            figure{
+                width: 34%;
+                overflow: hidden;
+                img{
+                    width: 100%;       
+                }
             }
-          }
+            
           .Popupimg1-text{
             width: 61%;
 
@@ -231,3 +230,7 @@ main{
       }
     }
   }
+
+
+
+@import "paintingsmedia";
