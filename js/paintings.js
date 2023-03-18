@@ -94,12 +94,12 @@ function paging(e) {
     event ? event.preventDefault() : '';
     $mainPaintingListEl.classList.remove('active');
     let elpageNumber = $gPagingNum;
-    let elStartPageNum = (18 * (parseInt(elpageNumber) - 1)) + 1;
+    let elStartPageNum = (18 * (parseInt(elpageNumber) - 1));
     let elLimitPageNum = 18 * parseInt(elpageNumber);
     let elPagingDataList = [];
 
     $gItemList.map((element, index) => {
-        if (elStartPageNum - 1 <= index && elLimitPageNum >= index) {
+        if (elStartPageNum - 1 <= index && elLimitPageNum > index) {
             elPagingDataList.push(element)
         }
     })
@@ -150,6 +150,8 @@ function paging(e) {
         }
 
     })
+
+    window.scrollTo(0,1000);
 
 }
 
