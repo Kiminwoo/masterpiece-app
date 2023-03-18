@@ -49,9 +49,10 @@ function makePaintingList(objs) {
     console.log(objs)
     let $makePaintingHtml = "";
 
-    objs.forEach((element, key) => {
+    if(objs.length > 0) {
+        objs.forEach((element, key) => {
 
-        $makePaintingHtml += `<li data-value = "${element.id}" class="grid-item">
+            $makePaintingHtml += `<li data-value = "${element.id}" class="grid-item">
                         <a href="#">
                             <img src="${element.url}" alt="">
                         </a>
@@ -59,8 +60,10 @@ function makePaintingList(objs) {
                         <span>${element.name}</span>
                     </li>`;
 
-    });
-
+        });
+    } else {
+        $makePaintingHtml += '<li class="grid-item nonItem"> 결과 내역이 없습니다</li>';
+    }
     $mainPaintingListEl.innerHTML = $makePaintingHtml;
 
     setTimeout(() => {
@@ -89,6 +92,11 @@ function paging(e) {
         $gPagingNum -= 1;
     } else {
         $gPagingNum = e;
+    }
+
+    // 페이징 숫자가 0보다 작아진다면 1페이지 고정으로
+    if($gPagingNum <= 0){
+        $gPagingNum = 1;
     }
 
     event ? event.preventDefault() : '';

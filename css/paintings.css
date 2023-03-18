@@ -211,4 +211,9 @@ main .Paintingcontent .pageNumber a {
   color: #222222;
   margin-top: 30px;
   line-height: 18px;
-}/*# sourceMappingURL=paintings.css.map */
+}
+.nonItem{
+  left: 44.5% !important;
+}
+
+/*# sourceMappingURL=paintings.css.map */
